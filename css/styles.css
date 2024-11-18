@@ -10,4 +10,36 @@ h1 {
   color: #333;
 }
 
+#listaUsuarios {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
+
+li {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 600px;
+
+  
+}
+
+
+img {
+  display: flex;
+  width: 200px;
+  float: right;
+}
+
+.datos {
+  border: 1px solid red;
+  float: left;
+}
